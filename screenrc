@@ -1,0 +1,11 @@
+#shell -$SHELL
+
+startup_message on
+
+# auto-log
+logfile $HOME/Documents/Logs/screen-logs%Y%m%d-%n.log
+deflog  on
+logfile flush 2
+
+ 
+ 

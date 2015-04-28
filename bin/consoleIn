@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+P = "/dev/cu.usbserial"
+FORMATTED_DATE=`/bin/date "+%Y-%m-%d.%H%M%S.log"`
+touch /Users/danielriggins/Documents/Logs/$FORMATTED_DATE.log
+##/Users/danielriggins/bin/loggerScript 
+screen /dev/cu.usbserial 9600 -L $FORMATTED_DATE.log
+
+
+
